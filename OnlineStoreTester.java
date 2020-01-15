@@ -11,7 +11,7 @@ public class OnlineStoreTester{
         order[3] = new Item("Knuckle Sandwich", "asd890", 500); 
         order[4] = new Item("Shrek 2 DVD", "jklol999", 10000);
         order[5] = new Item("Twinkies", "mno543", 900); 
-        order[6] = new Item("Brownish-black bananas", "kdi938", 300);
+        order[6] = new Item("Yello bananas", "kdi938", 300);
 
         for (int i = 0; i < 10; i++)
         System.out.println(order[i].toString());
