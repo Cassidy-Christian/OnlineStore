@@ -13,7 +13,7 @@ public class OnlineStoreTester{
         order[5] = new Item("Twinkies", "mno543", 900); 
         order[6] = new Item("Brownish-black bananas", "kdi938", 300);
 
-        for (i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)
         System.out.println(order[i].toString());
     }
 
