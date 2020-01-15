@@ -28,7 +28,7 @@ public class Item{
     }
 
     public String toString(int i){
-        return Order.getQuantity(i) + itemName + "\t" + sku + "\t $" + (double) price/100;
+        return order[i].getQuantity(i) + itemName + "\t" + sku + "\t $" + (double) price/100;
     }
 
 }

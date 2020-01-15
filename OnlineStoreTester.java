@@ -24,7 +24,7 @@ public class OnlineStoreTester{
         System.out.println("=====================================");
     }
     private static void tableSum(){
-        
+        System.out.println("TOTAL PRICE: " + totalPrice());
     
     }
 }
