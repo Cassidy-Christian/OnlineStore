@@ -24,11 +24,12 @@ public class Item{
         return sku; 
     }
     public int getPrice(){
-        return price; 
+        double dollarval=price; 
+        return dollarval; 
     }
 
     public String toString(int i){
-        return order[i].getQuantity(i) + itemName + "\t" + sku + "\t $" + (double) price/100;
+        return order[i].getQuantity(i) + itemName + "\t" + sku + "\t $" + dollarval/100;
     }
 
 }
