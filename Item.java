@@ -28,8 +28,8 @@ public class Item{
         return dollarval; 
     }
 
-    public String toString(){
-        return quantity[i] + itemName + "\t" + sku + "\t $" + (double) dollarval/100;
+    public String toString(int i){
+        return Order.getQuantity(i) + itemName + "\t" + sku + "\t $" + dollarval/100;
     }
 
 }

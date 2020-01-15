@@ -14,12 +14,18 @@ public class OnlineStoreTester{
         order[6] = new Item("Stinky socks", "kdi938", 300);
 
         for (int i = 0; i < 10; i++)
-        System.out.println(order[i].toString());
+        System.out.println(order[i].toString(i));
+
+        tableSum();
     }
 
     private static void tableHeader(){
         System.out.println("\nQuantity\tItem\tSKU\tPrice");
         System.out.println("=====================================");
+    }
+    private static void tableSum(){
+        
+    
     }
 }
 
