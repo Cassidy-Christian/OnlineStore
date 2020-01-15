@@ -10,7 +10,11 @@ public class OnlineStoreTester{
         order[2]= new Item("Used Floss", "efg789", 200); 
         order[3] = new Item("Knuckle Sandwich", "asd890", 500); 
         order[4] = new Item("Shrek 2 DVD", "jklol999", 10000);
+<<<<<<< HEAD
         order[5] = new Item("Hydroflask", "mno543", 900); 
+=======
+        order[5] = new Item("A box of angry bees", "mno543", 900); 
+>>>>>>> 742a4624f2d4dbfa23335e33b6039c729409ea4d
         order[6] = new Item("Stinky socks", "kdi938", 300);
 
         for (int i = 0; i < 10; i++)
