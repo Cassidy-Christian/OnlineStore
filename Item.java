@@ -11,7 +11,7 @@ public class Item{
     public void setItemName(String itemName){
         this.itemName=itemName; 
     }
-    public void setSkiu(String sku){
+    public void setSku(String sku){
         this.sku=sku; 
     }
     public void setPrice(int price){
@@ -24,12 +24,13 @@ public class Item{
         return sku; 
     }
     public int getPrice(){
-        double dollarval=price; 
-        return dollarval; 
+        return price; 
     }
 
-    public String toStringItems(){
-        return itemName + "\t" + sku + "\t $" + price;
+    public String toString(){
+        
+        return String.format("%20s%10s      $%.2f",itemName, sku, (price/100.0)); 
+           
     }
 
 }

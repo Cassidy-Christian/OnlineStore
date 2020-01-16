@@ -1,12 +1,12 @@
 public class Customer{
 
-    Customer cust1 = new Customer(String name, String email, Order order);
+    
     private String email; 
     private String name; 
-    private boolean order; 
+    private Order order; 
     
 
-    public Customer(String email, String name, boolean order);{
+    public Customer(String email, String name, Order order){
         this.email= email; 
         this.name=name;
         this.order=order; 
@@ -17,9 +17,10 @@ public class Customer{
     public void setName(String name){
         this.name=name; 
     }
-    public void setOrder( boolean order){
-        if (order)
-        return true 
+    public void setOrder( Order order){
+        this.order=order; 
+      //  if (order)
+       // return true 
     }
     public String getEmail(){
         return email; 
@@ -27,8 +28,11 @@ public class Customer{
     public String getName(){
         return name;
     }
-    public boolean getOrder(){
+    public Order getOrder(){
         return order; 
+    }
+    public String toString(){
+        return name; 
     }
 
     
